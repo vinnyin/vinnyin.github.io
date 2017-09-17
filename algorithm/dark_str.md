@@ -1,5 +1,4 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 # 问题描述
 一个包含'A'，'B'，'C'的字符串，如果存在某一段长度为3得连续子串中恰好含有'A'，'B'，'C'各有一个，那么这个字符串就是纯净的，否则就是暗黑的。   
 例如： BAACAACCBAAA连续字符串”CBA”中恰好包含ABC各一个，所以这个字符串是纯净的字符串;AABBCCAABB不存在长度为3的连续子串包含ABC所以这个字符串是暗黑的;   
